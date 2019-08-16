@@ -1,0 +1,571 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "null"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "personal_data_external_id": {
+                  "type": "null"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "parent_id": {
+                  "type": "null"
+                },
+                "root_id": {
+                  "type": "string"
+                },
+                "matching": {
+                  "type": "null"
+                },
+                "surname": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "null"
+                },
+                "patronymic": {
+                  "type": "null"
+                },
+                "legal_person_post": {
+                  "type": "null"
+                },
+                "legal_person_post_name": {
+                  "type": "null"
+                },
+                "person_parent_id": {
+                  "type": "null"
+                },
+                "person_parent_data": {
+                  "type": "null"
+                },
+                "organization_id": {
+                  "type": "null"
+                },
+                "organization_data": {
+                  "type": "null"
+                },
+                "user": {
+                  "type": "null"
+                },
+                "user_role_name": {
+                  "type": "null"
+                },
+                "external_system_data": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "type": "object",
+                          "properties": {
+                            "uid": {
+                              "type": "null"
+                            },
+                            "employee": {
+                              "type": "object",
+                              "properties": {
+                                "status": {
+                                  "type": "null"
+                                },
+                                "division": {
+                                  "type": "null"
+                                },
+                                "position": {
+                                  "type": "null"
+                                },
+                                "full_name": {
+                                  "type": "null"
+                                },
+                                "update_date": {
+                                  "type": "null"
+                                }
+                              },
+                              "required": [
+                                "status",
+                                "division",
+                                "position",
+                                "full_name",
+                                "update_date"
+                              ]
+                            },
+                            "verification_status": {
+                              "type": "null"
+                            }
+                          },
+                          "required": [
+                            "uid",
+                            "employee",
+                            "verification_status"
+                          ]
+                        },
+                        "system_id": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "data",
+                        "system_id"
+                      ]
+                    }
+                  ]
+                },
+                "user_external_system_list": {
+                  "type": "array",
+                  "items": {}
+                },
+                "phone": {
+                  "type": "null"
+                },
+                "email": {
+                  "type": "null"
+                },
+                "user_name": {
+                  "type": "string"
+                },
+                "create_date": {
+                  "type": "string"
+                },
+                "start_date": {
+                  "type": "string"
+                },
+                "end_date": {
+                  "type": "string"
+                },
+                "state_id": {
+                  "type": "string"
+                },
+                "is_matching": {
+                  "type": "boolean"
+                },
+                "is_active": {
+                  "type": "boolean"
+                },
+                "tree": {
+                  "type": "null"
+                },
+                "user_fio": {
+                  "type": "null"
+                },
+                "is_mp_exist": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "personal_data_external_id",
+                "display_name",
+                "parent_id",
+                "root_id",
+                "matching",
+                "surname",
+                "name",
+                "patronymic",
+                "legal_person_post",
+                "legal_person_post_name",
+                "person_parent_id",
+                "person_parent_data",
+                "organization_id",
+                "organization_data",
+                "user",
+                "user_role_name",
+                "external_system_data",
+                "user_external_system_list",
+                "phone",
+                "email",
+                "user_name",
+                "create_date",
+                "start_date",
+                "end_date",
+                "state_id",
+                "is_matching",
+                "is_active",
+                "tree",
+                "user_fio",
+                "is_mp_exist"
+              ]
+            }
+          ]
+        },
+        "columns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key"
+              ]
+            }
+          ]
+        },
+        "online_executor_root_id_list": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "data",
+        "columns",
+        "online_executor_root_id_list"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "message",
+    "data"
+  ]
+}
